@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<style type="text/css">
+		/* alter the value set by bootstrap */
+		h1 {
+			margin: 0px;
+			font-size: 75px;
+		}
+		.row {
+			margin: 0px;
+		}
+		/*******************************/
+		a {
+			color: white;
+		}
+		a:hover {
+			text-decoration: none;
+			color: white;
+		}
+		body {
+			background-color: #454356;
+			color: white;
+			min-height: 100vh;
+			margin: 0px;
+			padding: 0px;
+		}
+		.main-content {
+			margin-top: 50px;
+		}
+		.header {
+			text-align: center;
+			margin: 20px 0;
+		}
+		.header > h1 {
+			text-decoration: underline;
+		}
+		.intro-text {
+			margin-top: 5px;
+			animation-name: slide;
+			animation-duration: 2s;
+		}
+		@keyframes slide {
+	    from {width: 30%;}
+	    to {width: 100%}
+		}
+		.content {
+			animation-name: display;
+			animation-duration: 2s;
+			-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+      animation-delay: 2s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+		}
+		@keyframes display {
+	    from {opacity: 0;}
+	    to {opacity: 1;}
+		}
+		.self-description {
+			margin-top: 100px;
+		}
+		.skills {
+			margin-top: 50px;
+			text-align: center;
+		}
+		.technologies {
+			text-align: center;
+		}
+		.tech {
+			padding: 10px;
+		}
+		.trnsit {
+			transition: all 1s;
+			cursor: default;
+		}
+		.blue:hover {
+			background-color: #91c2d9;
+		}
+		.red:hover {
+			background-color: #ff0000;
+		}
+		.brown:hover {
+			background-color: #813131;
+		}
+		.purple:hover {
+			background-color: #6e61c4;
+		}
+		.green:hover {
+			background-color: #9cf000;
+		}
+		.lightblue:hover {
+			background-color: #008080;
+		}
+		.orange:hover {
+			background-color: #ffbc6a;
+		}
+		.darkgreen:hover {
+			background-color: #04422e;
+		}
+		.lightpurple:hover {
+			background-color: #d8c1ca;
+		}
+		.pink:hover {
+			background-color: #f9d5df;
+		}
+	</style>
+</head>
+<body>
+
+	<div class='main-content'>
+		<div class='header'>
+			<h1>Andy Yu</h1>
+			<div class='intro-text'>
+				<p>Upcoming senior in CUNY Queens College.</p>
+			</div>
+		</div>
+		<div class='content'>
+			<div class='self-description row'>
+				<div class='col-sm-4'></div>
+				<div class='descr col-sm-4'>I major in computer science, currently studying in CUNY Queens College. It has been two and a half years since I learned about Computer Science and two years since I wrote my first piece of code in.... I forgot the name.</div>
+				<div class='col-sm-4'></div>
+			</div>
+			<div class='skills row'>
+				<div class='header sub-header'><b>Skills: The following tabs contains resources that I found useful when learning</b></div>
+				<div class='col-sm-3'></div>
+				<div class='col-sm-6'>
+					<div class='col-sm-2 skill trnsit blue'>
+						<a href='https://www.edx.org/course/introduction-computer-science-harvardx-cs50x'>C++</a>
+					</div>
+					<div class='col-sm-2 skill trnsit red'>
+						<a href='http://www.tutorialspoint.com/java/'>Java</a>
+					</div>
+					<div class='col-sm-2 skill trnsit brown'>
+						<a href='https://www.codecademy.com/learn/javascript'>Javascript</a>
+					</div>
+					<div class='col-sm-2 skill trnsit purple'>
+						<a href='http://www.tutorialspoint.com/html/'>HTML</a>
+					</div>
+					<div class='col-sm-2 skill trnsit lightblue'>
+						<a href='https://www.ostraining.com/blog/coding/bootstrap/'>CSS</a>
+					</div>
+					<div class='col-sm-2 skill trnsit green'>
+						<a href='https://www.developphp.com/lib/PHP/Introduction'>PHP</a>
+					</div>
+				</div>
+				<div class='col-sm-3'></div>
+			</div>
+			<div class='technologies row'>
+				<div class='header sub-header'><b>Technologies</b></div>
+				<div class='col-sm-3'></div>
+				<div class='col-sm-6'>
+					<div class='col-sm-3 tech trnsit orange'>Android Studio</div>
+					<div class='col-sm-3 tech trnsit darkgreen'>MySQL</div>
+					<div class='col-sm-3 tech trnsit lightpurple'>Node Js</div>
+					<div class='col-sm-3 tech trnsit pink'>Drupal</div>
+				</div>
+				<div class='col-sm-3'></div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
