@@ -41,20 +41,19 @@
 		.intro-text {
 			margin-top: 5px;
 			animation-name: slide;
-			animation-duration: 2s;
-			animation-timing-function: ease-out;
+			animation-duration: 1s;
+			animation-timing-function: ease;
 		}
 		@keyframes slide {
 	    from {width: 30%;}
 	    to {width: 100%}
 		}
 		.content {
-			animation-name: display;
-			animation-duration: 2s;
-			-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
-      animation-delay: 2s;
-      animation-fill-mode: forwards;
-      opacity: 0;
+		  animation-name: display;
+		  animation-duration: 1.5s;
+	      animation-delay: 1s;
+	      animation-fill-mode: forwards;
+	      opacity: 0;
 		}
 		@keyframes display {
 	    from {opacity: 0;}
